@@ -11,9 +11,9 @@ result = JSON.parse(data)
 
 case result["result"]
 when "SUCCESS"
-  puts ":-)"
+  puts "#[fg=green]:-)"
 when "FAILURE"
-  puts ":-("
+  puts "#[fg=red]:-("
 else
   puts "?"
 end
